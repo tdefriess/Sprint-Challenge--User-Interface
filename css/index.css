@@ -149,8 +149,12 @@ nav a {
 	justify-content: space-between;
 	width: 46%;
 	padding-bottom: 20px;
+	padding-top: 10px;
 	border-bottom: 1px dashed black;
 	margin-bottom: 40px;
+}
+.teaser h2 {
+	padding-top: 20px;
 }
 .teaser p {
 	margin-bottom: 20px;
