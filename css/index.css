@@ -165,7 +165,7 @@ nav a {
 	border-radius: 10px;
 	width: 30%;
 	padding: 8px 0;
-	text-emphasis:
+	font-weight: 700;
 }
 .learn-more:hover {
 	background-color: lightgray;
