@@ -309,3 +309,68 @@ footer nav a {
 		margin: 10px 0;
 	}
 }
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+	header {
+		width: auto;
+	}
+	header nav {
+		flex-direction: row;
+	}
+	header nav a {
+		padding: 4px 0;
+	}
+	header .jumbo {
+		width: 100%;
+	}
+	.about-top {
+		width: 90%;
+	}
+	.top-content {
+		flex-wrap: wrap;
+	}
+	.top-content .text-container {
+		width: 45%;
+	}
+	.container {
+		width: auto;
+	}
+	.middle-content .boxes {
+		flex-wrap: wrap;
+		flex-direction: row;
+		align-items: center;
+
+	}
+	.middle-content .boxes .box {
+		width: 100px;
+		height: 100px;
+	}
+	.about-middle {
+		flex-wrap: wrap;
+	}
+	.teaser {
+		width: 46%;
+		margin: 10px auto;
+	}
+	.teaser img {
+		width: 100%;
+	}
+	.bottom-content {
+		flex-wrap: wrap;
+	}
+	.bottom-content .text-container {
+		margin-bottom: 20px;
+		width: 30%
+	}
+	.about-bottom {
+		width: 90%;
+		margin-top: 10px;
+	}
+	footer nav {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+	}
+	footer nav a {
+		margin: 10px 0;
+	}
+}
