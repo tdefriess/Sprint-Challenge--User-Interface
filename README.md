@@ -34,13 +34,21 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML is a way of writing HTML code that provides meaning for developers and search engines that read the code. For example, the <nav>, <h1>, and <p> tags are used to signify navigation menus, main headings, and paragraphs, respectively. The <header>, <section>, and <footer> tags are used to help with general flow of the page. Finally, <article> tags are useful for marking up content that can be displayed out of the context of your site but still make sense. For instance, a google result would show a snippet from an <article> section, which is usually something like the primary content of a blog post.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+display: block; breaks the flow of the page to a new line, and has defined height and width (by default defined by the element's content, but is configurable), whereas display: inline; configures an element to nest within a parent block element without a line break and has no dimensions beyond what is necessary for the content area.
 
 3. What are the 4 areas of the box model?
 
+Content, padding, border, and margin.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
-5. Explain why git is valuable to a team of developers.
+Align-items works on what is called the "cross axis" or the axis perpendicular to the main-axis that flexbox items are lined up on. For instance, in the default behavior of flexbox, the elements are lined up horizontally, and align-items: center would center the items vertically within their parent block.
+
+5. Explain why git is valuable to a team of developers. Git is valuable because it solves two problems of collaborative code writing. The first is that git tracks changes to a file, even after you close your editor, which makes it easier to revert to old, working code in the event that a critical bug is introduced to the code. The second is that it allows for robust version-control among many programmers, allowing each member of a team to branch the code they're working on and to merge their changes back into the primary code after review.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 

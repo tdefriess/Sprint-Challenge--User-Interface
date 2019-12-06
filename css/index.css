@@ -131,7 +131,12 @@ nav a {
     align-items: center;
     justify-content: center;
 }
-
+/* About top section*/
+.about-top {
+	width: 770px;
+	margin: 0 auto;
+	padding-bottom: 40px;
+}
 /* About page middle content */
 .about-middle{
 	display: flex;
@@ -147,9 +152,19 @@ nav a {
 	border-bottom: 1px dashed black;
 	margin-bottom: 40px;
 }
+.teaser p {
+	margin-bottom: 20px;
+}
 .learn-more {
 	background-color: white;
-	border: 1px solid black;
+	border: 2px solid black;
+	border-radius: 10px;
+	width: 30%;
+	padding: 8px 0;
+	text-emphasis:
+}
+.learn-more:hover {
+	background-color: lightgray;
 }
 
 /*About bottom section*/
